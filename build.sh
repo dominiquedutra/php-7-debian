@@ -23,6 +23,8 @@ sudo apt-get install -y \
 
 sudo mkdir /usr/local/php7
 
+sudo ln -s /usr/include/x86_64-linux-gnu/curl /usr/include/curl
+
 git clone https://github.com/php/php-src.git
 cd php-src
 git fetch --tags --prune
